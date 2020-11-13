@@ -1,0 +1,175 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey foodie :-)",
+          "Hello, thanks for visiting",
+          "Hi there food lover, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "restaurtants",
+        "patterns":[
+          "Are there any good hotels nearby?",
+          "Any good hotels nearby?",
+          "please get me some restaurants",
+          "get me a list of restaurants near to me",
+          "please help me find some restaurants",
+          "please get me a list of restaurants near by",
+          "please get me a list of all restaurants near by"
+        ],
+        "responses":[
+          "Sure, I'll search according to your needs",
+          "All right foodie, cheking...",
+          "Aye-Aye foodie, let me check"
+        ]
+      },
+      {
+        "tag": "cuisine",
+        "patterns":[
+          "what cuisine is good ?",
+          "any indian cuisine hotel nearby?",
+          "any mexican cuisine hotel nearby?",
+          "any italian cuisine hotel nearby?",
+          "any north Indian cuisine hotel nearby?",
+          "biryani nearby",
+          "I want chinese",
+          "I want south indian hotels",
+          "I like to have continental dishe today",
+          "good mexican cuisine nearby",
+          "I want some momos"
+        ],
+        "responses":[
+          "Sounds perfect... let me see if I can find something for this taste",
+          "All right foodie, cheking..."
+        ]
+      },
+      {
+        "tag": "telling_category",
+        "patterns":[
+          "I'm intrested in takeaways",
+          "I want some cafes nearby",
+          "I would like to dine-out",
+          "cafes please",
+          "fine dining hotels",
+          "nightlife please",
+          "nearby pubs",
+          "any coffee house nearby"
+        ],
+        "responses":[
+          "Amazing choice, I'll see if I can find what you're looking for",
+          "I like your thinking, let me find that suits your thinking"
+        ]
+      },
+      {
+        "tag": "telling_location",
+        "patterns":[
+          "I live in Mumbai",
+          "my prefered location is chennai",
+          "I live in pune",
+          "looking to eat in some pune",
+          "I'm currently living in delhi",
+          "good hotels in delhi",
+          "good hotels in mumbai",
+          "good hotels in chennai",
+          "good hotels in hyderabad",
+          "good hotels in punjab"
+        ],
+        "responses":[
+          "sweet location, let me find something intresting",
+          "aye, you this place has tons of good hotels, let me find the best for you..."
+        ]
+      },
+      {
+        "tag":"telling_location_cuisine",
+        "patterns":[
+          "i am looking for some chinese food in mumbai",
+          "i am looking for italian food in hyderabad",
+          "i am looking for some chinese food in hyderabad",
+          "chinese food in hyderabad",
+          "italian food in hyderabad",
+          "looking for italian food in hyderabad",
+          "will try south indian in mumbai",
+          "would like to eat mexican in mumbai",
+          "i would like to eat mexican in kerala",
+          "i would love to eat mexican in hyderabad",
+          "i would love to eat italian in hyderabad",
+          "will eat arabian food in hyderabad",
+          "will eat thai in hyderabad",
+          "would like to eat mexican in chennai",
+          "i will prefer to eat italian food in mumbai",
+          "i need chinese food in kerala",
+          "i will need some south indian food in bengaluru",
+          "i would love to eat north indian food in hyderabad",
+          "i am looking to eat italian food in mumbai",
+          "i would like to eat north indian food in hyderabad",
+          "i would like to eat chinese food in hyderabad"
+        ],
+        "responses":[
+          "Definately a place to try this exact same cuisine, let me see..."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery mostly takes about 30-40 minutes, the restaurtant will let you know",
+          "Delivery takes about 30 minutes",
+          "Once the order reaches to your home, you'll be notified. So relax!"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }
