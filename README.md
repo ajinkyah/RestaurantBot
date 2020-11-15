@@ -6,7 +6,7 @@ choose `conda` or `venv` whatever you prefer
 
 ## Install PyTorch and other Dependencies
 
-[official website] https://pytorch.org/
+official website https://pytorch.org/
 
 ### Dependencies include
  `conda or pip install nltk` & `nltk.download('punkt')
